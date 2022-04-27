@@ -4,8 +4,27 @@
   float: left;
   width: 33.33%;
   text-align: center;
-  border: 6px solid black;
-  height: 100vh;
+  border: 2px solid black;
+  height: 70vh;
+}
+
+.column-content {
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: left;
+}
+
+.footercolumn {
+  float: left;
+  width: 16.6%;
+  text-align: right;
+
+}
+
+.footerrow:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Clear floats after the columns */
@@ -15,15 +34,68 @@
   clear: both;
 }
 
-#title {
+.button {
+  border: 3px solid black;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.buttonlink {
+  text-decoration: none;
+}
+
+#current {
+  border: 4px solid black;
+  background-color:steelblue;
+}
+
+.halfbr {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.search{
+  position: absolute;
+  right:0;top:0;
+  text-align: right;
+  margin-right: 10em;
+}
+
+.navbuttons {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
   text-align: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+  margin-right: 100px;
+}
+
+.footer {
+  border: 2px solid black;
+  height: 15vh;
+  background-color: rgb(196, 196, 196);
+}
+
+.events-section {
+  margin-left: 80px;
+  margin-right: 80px;
+  border: 3px solid black;
+  height: 50vh;
+
 }
 
 * {
   box-sizing: border-box;
 }
-
-
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -31,11 +103,12 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: #000080;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: gold;
+  border: 5px solid black
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -45,6 +118,7 @@ nav {
   height: 800px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
+  border: 5px solid black
 }
 
 /* Style the list inside the menu */
@@ -52,6 +126,11 @@ nav ul {
   list-style-type: none;
   padding: 0;
   height: 400px;
+}
+
+img {
+  border: 5px solid black;
+  padding: 3px;
 }
 
 mainTitle {
@@ -67,12 +146,26 @@ mainBody {
   color: black;
 }
 
-article {
+article1 {
   float: left;
-  padding: 20px;
-  width: 70%;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 85%;
   background-color: #f1f1f1;
   height: 800px; /* only for demonstration, should be removed */
+  border: 5px solid black
+}
+
+article2 {
+  float: left;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 800px; /* only for demonstration, should be removed */
+  border: 5px solid black
 }
 
 /* Clear floats after the columns */
@@ -84,10 +177,12 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: gold;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: gold;
+  height: 200px;
+  border: 5px solid black
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
