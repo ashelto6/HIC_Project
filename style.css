@@ -54,6 +54,11 @@ nav ul {
   height: 400px;
 }
 
+img {
+  border: 5px solid #ccc;
+}
+
+
 mainTitle {
   padding: 30px;
   text-align: center;
@@ -88,6 +93,7 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
+  height: 200px;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
