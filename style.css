@@ -59,6 +59,13 @@
   font-weight: bold;
 }
 
+.search{
+  position: absolute;
+  right:0;top:0;
+  text-align: right;
+  margin-right: 10em;
+}
+
 .navbuttons{
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -69,6 +76,7 @@
 }
 
 .title {
+  
   text-align: center;
   font-size: 40px;
   margin-right: 100px;
