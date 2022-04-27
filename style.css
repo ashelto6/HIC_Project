@@ -168,6 +168,29 @@ article2 {
   border: 5px solid black
 }
 
+article3 {
+  float: left;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 800px; /* only for demonstration, should be removed */
+  border: 5px solid black
+}
+
+article4 {
+  float: right;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 50%;
+  background-color: #f1f1f1;
+  height: 800px; /* only for demonstration, should be removed */
+  border: 5px solid black
+}
+
+
 /* Clear floats after the columns */
 section::after {
   content: "";
