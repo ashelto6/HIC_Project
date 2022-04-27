@@ -36,11 +36,12 @@ body {
 
 /* Style the header */
 header {
-  background-color: #666;
+  background-color: #000080;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: gold;
+  border: 5px solid black
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -50,6 +51,7 @@ nav {
   height: 800px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
+  border: 5px solid black
 }
 
 /* Style the list inside the menu */
@@ -60,9 +62,8 @@ nav ul {
 }
 
 img {
-  border: 5px solid #ccc;
+  border: 5px solid black;
 }
-
 
 mainTitle {
   padding: 30px;
@@ -77,12 +78,26 @@ mainBody {
   color: black;
 }
 
-article {
+article1 {
   float: left;
-  padding: 20px;
-  width: 70%;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 85%;
   background-color: #f1f1f1;
   height: 800px; /* only for demonstration, should be removed */
+  border: 5px solid black
+}
+
+article2 {
+  float: left;
+  padding-top: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 800px; /* only for demonstration, should be removed */
+  border: 5px solid black
 }
 
 /* Clear floats after the columns */
@@ -94,11 +109,12 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #777;
+  background-color: gold;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: gold;
   height: 200px;
+  border: 5px solid black
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
