@@ -15,6 +15,10 @@
   clear: both;
 }
 
+.current {
+  font-weight: bold;
+}
+
 #title {
   text-align: center;
 }
