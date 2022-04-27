@@ -4,8 +4,24 @@
   float: left;
   width: 33.33%;
   text-align: center;
-  border: 6px solid black;
-  height: 100vh;
+  border: 2px solid black;
+  height: 70vh;
+}
+.column-content{
+  padding-left: 80px;
+  padding-right: 80px;
+  text-align: left;
+}
+.footercolumn {
+  float: left;
+  width: 16.6%;
+  text-align: right;
+
+}
+.footerrow:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Clear floats after the columns */
@@ -24,6 +40,13 @@
 
 .title {
   text-align: center;
+  margin-right: 100px;
+}
+
+.footer {
+  border: 2px solid black;
+  height: 15vh;
+  background-color: rgb(196, 196, 196);
 }
 
 * {
