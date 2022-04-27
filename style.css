@@ -8,11 +8,10 @@
   height: 70vh;
 }
 
-.column-content{
+.column-content {
   padding-left: 80px;
   padding-right: 80px;
   text-align: left;
-  
 }
 
 .footercolumn {
@@ -35,23 +34,23 @@
   clear: both;
 }
 
-.button{
+.button {
   border: 3px solid black;
   padding: 20px;
   font-size: 20px;
   color: black;
 }
 
-.buttonlink{
+.buttonlink {
   text-decoration: none;
 }
 
-#current{
+#current {
   border: 4px solid black;
   background-color:steelblue;
 }
 
-.halfbr{
+.halfbr {
   display: block;
   margin-bottom: 1em;
 }
@@ -67,17 +66,14 @@
   margin-right: 10em;
 }
 
-.navbuttons{
+.navbuttons {
   position: -webkit-sticky; /* Safari */
   position: sticky;
   top: 0;
   text-align: center;
-  
-  
 }
 
 .title {
-  
   text-align: center;
   font-size: 40px;
   margin-right: 100px;
@@ -89,7 +85,7 @@
   background-color: rgb(196, 196, 196);
 }
 
-.events-section{
+.events-section {
   margin-left: 80px;
   margin-right: 80px;
   border: 3px solid black;
