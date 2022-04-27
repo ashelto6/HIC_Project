@@ -1,5 +1,39 @@
 /* Styling for pages */
 
+.vertical {
+  border-left: 6px solid black;
+  height: 200px;
+  position:absolute;
+  left: 0%;
+}
+
+.mycontent-left {
+  border-right: 1px dashed #333;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  color:#777;
+  text-align: center;
+  border-left: 4px black;
+}
+
+.border-right {
+  border-right: 1px solid black;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#title {
+  text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
