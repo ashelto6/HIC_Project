@@ -20,8 +20,8 @@ header {
 /* Create two columns/boxes that floats next to each other */
 nav {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
+  width: 15%;
+  height: 800px; /* only for demonstration, should be removed */
   background: #ccc;
   padding: 20px;
 }
@@ -30,6 +30,13 @@ nav {
 nav ul {
   list-style-type: none;
   padding: 0;
+  height: 400px;
+}
+
+#content ul li {
+ list-style-Type: none;
+ padding: 0 0 4px 23px;
+ background: url(https://www.computerhope.com/cdn/arrow.png) no-repeat left center;
 }
 
 article {
@@ -37,7 +44,7 @@ article {
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
-  height: 300px; /* only for demonstration, should be removed */
+  height: 800px; /* only for demonstration, should be removed */
 }
 
 /* Clear floats after the columns */
