@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -33,10 +35,17 @@ nav ul {
   height: 400px;
 }
 
-#content ul li {
- list-style-Type: none;
- padding: 0 0 4px 23px;
- background: url(https://www.computerhope.com/cdn/arrow.png) no-repeat left center;
+mainTitle {
+  padding: 30px;
+  text-align: center;
+  font-size: 45px;
+  color: black;
+}
+
+mainBody {
+  text-align: center;
+  font-size: 25px;
+  color: black;
 }
 
 article {
