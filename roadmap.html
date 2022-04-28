@@ -35,70 +35,63 @@
             <span><a href="/about.html">About</a></span>
             <span><b> > </b></span>
             <span class="current">Roadmap</span>
-        </div>
+    </div>
 
 
-<section>
-  
-  <article2>
-    <center>
-        <p> </p>
-    </center>
-    
-<script>
-      function openCity(evt, cityName) {
-  // Declare all variables
-  var i, tabcontent, tablinks;
-
-  // Get all elements with class="tabcontent" and hide them
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
-  }
-
-  // Get all elements with class="tablinks" and remove the class "active"
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
-  }
-
-  // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
-}
-
-    </script>
-      
-      <!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Robotics and Embedded Systems')">Robotics and Embedded Systems</button>
-  <button class="tablinks" onclick="openCity(event, 'Data Engineering')">Data Engineering</button>
-  <button class="tablinks" onclick="openCity(event, 'Game Programming')">Game Programming</button>
-  <button class="tablinks" onclick="openCity(event, 'Information Security')">Information Security</button>
+<!-- Tab links -->
+<div class = "wrapper">
+  <div class="roadtab">
+    <button class="roadtablinks" onclick="openRoad(event, 'RES')" id="roaddefaultOpen"><b><b>Robotics and Embedded Systems</b></b></button>
+    <button class="roadtablinks" onclick="openRoad(event, 'DE')"><b><b>Data Engineering</b></b></button>
+    <button class="roadtablinks" onclick="openRoad(event, 'GP')"><b><b>Game Programming</b></b></button>
+    <button class="roadtablinks" onclick="openRoad(event, 'IS')"><b><b>Information Security</b></b></button>
+  </div>
 </div>
 
 <!-- Tab content -->
-<div id="Robotics and Embedded Systems" class="tabcontent">
-  <h3><br></h3>
-  <p>Robotics and Embedded Systems concentration information</p>
+<div id="RES" class="roadtabcontent">
+  <h3>Robotics and Embedded Systems</h3>
+  <p>This is where roadmap info for the Robotics and Embedded Systems concentration will be.</p>
 </div>
 
-<div id="Data Engineering" class="tabcontent">
-  <h3><br></h3>
-  <p>Data Engineering concentration information</p>
+<div id="DE" class="roadtabcontent">
+  <h3>Data Engineering</h3>
+  <p>This is where roadmap info for the Data Engineering concentration will be.</p>
 </div>
 
-<div id="Game Programming" class="tabcontent">
-  <h3><br></h3>
-  <p>Game Programming concentration information</p>
+<div id="GP" class="roadtabcontent">
+  <h3>Game Programming</h3>
+  <p>This is where roadmap info for the Game Programming concentration will be.</p>
 </div>
-<div id="Information Security" class="tabcontent">
-  <h3><br></h3>
-  <p>Information Security concentration information</p>
+
+<div id="IS" class="roadtabcontent">
+  <h3>Information Security</h3>
+  <p>This is where roadmap info for the Information Security concentration will be.</p>
 </div>
-      
-  </article2>
-</section>
+
+<script>
+  function openRoad(evt, cityName) {
+  // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("roadtabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("roadtablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" roadactive", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " roadactive";
+  }
+  document.getElementById("roaddefaultOpen").click();
+</script>
 
 <div class = "footer">
             <div class = "footerrow">
@@ -130,7 +123,7 @@
                     
                 </div>
                 <div class="footercolumn">
-                    <p>yes</p>
+                    <p>Copyright</p>
                 </div>
             </div>
         </div>
