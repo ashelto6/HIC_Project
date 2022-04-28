@@ -5,11 +5,126 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jobs</title>
+        <title>News</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <link rel="stylesheet" href="style.css">
-        <h1 id="title"> Job Opportunities </h1>
+
+        <!-- nav bar -->
+        <div>
+            <div class = "navbuttons">
+                <a class = "buttonlink" href="/home.html"><span class = "button">Home</span></a>
+                <a class = "buttonlink" href="/about.html"><span class = "button">About</span></a>
+                <a class = "buttonlink" href="/roadmap.html"><span class = "button">Roadmap</span></a>
+                <a class = "buttonlink" href="/professors.html"><span class = "button">Professors</span></a>
+                <a class = "buttonlink" href="/jobs.html"><span class = "button" id="current">Jobs</span></a>
+                <a class = "buttonlink" href="/news.html"><span  class="button">News</span></a>
+                <a class = "buttonlink" href="/resources.html"><span class = "button">Resources</span></a>
+                <!-- search bar -->
+                <form class = "search">
+                    <input type="search" id="query" name="q" placeholder="Search...">
+                </form>
+            </div>
+
+            <!-- header -->
+            <img src="kent-state-university-logo.jpg" alt="CSlogo" style="width:100px;height:100px;" align="left">
+            <br>
+            <h1 class ="title">Job Opportunities</div></h1>
+        </div>
+
+        <!-- breadcrumb -->
+        <div>
+            <span><a href="/home.html">Home</a></span>
+            <span><b> > </b></span>
+            <span><a href="/about.html">About</a></span>
+            <span><b> > </b></span>
+            <span><a href="/roadmap.html">Roadmap</a></span>
+            <span><b> > </b></span>
+            <span><a href="/professors.html">Professors</a></span>
+            <span><b> > </b></span>
+            <span class="current">Jobs</span>
+        </div>
+
+        <!-- main content -->
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen"><b><b>London</b></b></button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')"><b><b>Paris</b></b></button>
+            <button class="tablinks" onclick="openCity(event, 'Tokyo')"><b><b>Tokyo</b></b></button>
+        </div>
+        
+        <div id="London" class="tabcontent">
+            <h3><b>London</b></h3>
+            <p>London is the capital city of England.</p>
+        </div>
+        
+        <div id="Paris" class="tabcontent">
+            <h3><b>Paris</b></h3>
+            <p>Paris is the capital of France.</p>
+        </div>
+        
+        <div id="Tokyo" class="tabcontent">
+            <h3><b>Tokyo</b></h3>
+            <p>Tokyo is the capital of Japan.</p>
+        </div>
+
+
+
+        <script>
+            function openCity(evt, cityName) {
+                // Declare all variables
+                var i, tabcontent, tablinks;
+
+                // Get all elements with class="tabcontent" and hide them
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                // Get all elements with class="tablinks" and remove the class "active"
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+
+                // Show the current tab, and add an "active" class to the link that opened the tab
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+            document.getElementById("defaultOpen").click();
+        </script>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <!-- footer -->
+                <div class = "footer">
+                    <div class = "footerrow">
+                        <div class="footercolumn">
+                            <br>
+                            <p>yes</p>
+                            <p>yes</p>
+                            <p>yes</p>
+                        </div>
+                        <div class="footercolumn">
+                            <br>
+                            <p>yes</p>
+                            <p>yes</p>
+                            <p>yes</p>
+                        </div>
+                        <div class="footercolumn">
+                            <br>
+                            <p>yes</p>
+                            <p>yes</p>
+                            <p>yes</p>
+                        </div>
+                        <div class="footercolumn">
+                            <br>
+                            <p>yes</p>
+                            <p>yes</p>
+                            <p>yes</p>
+                        </div>
+                        <div class="footercolumn">
+                            <p>Copyright</p>
+                        </div>
+                    </div>
+                </div>
     </body>
 </html>
