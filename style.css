@@ -6,7 +6,7 @@
   text-align: center;
   border: 4px solid black;
   height: 70vh;
-  background-color:steelblue
+  background-color:#3382FF;
 }
 
 .column-content {
@@ -49,7 +49,7 @@
 
 #current {
   border: 4px solid black;
-  background-color:steelblue;
+  background-color:#3382FF;
 }
 
 .halfbr {
@@ -325,4 +325,5 @@ tabs{
   padding: 6px 12px;
   border: 2px solid rgb(0, 0, 0);
   height: 650px;
+  background-color: #3382FF;
 }
