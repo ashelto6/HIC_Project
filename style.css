@@ -49,7 +49,7 @@
 
 #current {
   border: 4px solid black;
-  background-color:#3382FF;
+  background-color:#e9b200;
 }
 
 .halfbr {
@@ -68,7 +68,7 @@
   margin-right: 10em;
 }
 
-* {box-sizing: border-box}
+* {box-sizing: border-box;}
 
 /* Style the tab */
 .tab {
