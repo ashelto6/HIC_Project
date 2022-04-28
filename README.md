@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 How to run the project
     1. Download zip file
     2. Extract files
@@ -5,3 +6,13 @@ How to run the project
     4. Open home.html
     5. Navigate through website
     Recommended: To view the full functionality of the webpages, ie. the navbar, the Live Server VSCode extension is a good solution for viewing the pages in a deployed-like manner.
+=======
+# How to run the project
+1. Download zip file
+2. Extract files
+3. Open folder
+4. Open home.html
+5. Navigate through website
+
+ Recommended: To view the full functionality of the webpages, ie. the navbar, the Live Server VSCode extension is a good solution for viewing the pages in a deployed-like manner.
+>>>>>>> 152e7cb1e50f6a9ba307d45c7b910075df49abf1
