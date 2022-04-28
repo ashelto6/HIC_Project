@@ -185,7 +185,7 @@ footer {
   border: 5px solid black
 }
 
-roadbuttons{
+tabs{
   float: left;
   width: 15%;
   height: 800px; /* only for demonstration, should be removed */
